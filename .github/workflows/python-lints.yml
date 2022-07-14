@@ -18,4 +18,4 @@ jobs:
         with:
           path: ~/.cache/pre-commit
           key: pre-commit
-      - run: pre-commit --all-files --show-diff-on-failure
+      - run: pre-commit run --all-files --show-diff-on-failure
